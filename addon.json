@@ -1,0 +1,21 @@
+{
+    "name": "APIv2 Token",
+    "description": "This plugin creates an endpoint which accepts a POST call to create and eturn a APIv2 token.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "type": "addon",
+    "key": "apitoken",
+    "mobileFriendly": true,
+    "hasLocale": true,
+    "settingsUrl": "/settings/apitoken",
+    "pluginUrl": "https://github.com/r-j/apitoken",
+    "authors": [
+        {
+            "name": "Robin Jurinka",
+            "homepage": "https://open.vanillaforums.com/profile/r_j"
+        }
+    ],
+    "require": {
+        "vanilla": ">=2.6"
+    }
+}
