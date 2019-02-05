@@ -57,4 +57,9 @@ class ApitokenPlugin extends Gdn_Plugin {
         // Return the signed token
         echo json_encode(['access_token' => $token]);
     }
+
+    public function vanillaController_apiTokenTest_create($sender) {
+        $sender->Form = new Gdn_Form();
+        $sender->render('apitokentest', '', 'plugins/apitoken');
+    }
 }

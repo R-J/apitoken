@@ -1,6 +1,6 @@
 {
     "name": "APIv2 Token",
-    "description": "This plugin creates an endpoint which accepts a POST call to create and eturn a APIv2 token.",
+    "description": "This plugin creates an endpoint which accepts a POST call to create and return a APIv2 token.",
     "version": "0.0.1",
     "license": "MIT",
     "type": "addon",
